@@ -1,0 +1,37 @@
+.ball{
+  width:60px;
+  height:60px;
+background-color:#ffc107;
+border-radius:50%;
+position: relative;
+animation: jump 20s linear infinite;
+}
+.box{
+  width:100%;
+  height:98vh;
+  background-color:black;
+  overflow: hidden;
+}
+@keyframes jump {
+0%{top: 0; left:0;}
+5%{top:80%; left: 97%;}
+10%{top:20%; left: 0;}
+15%{top:95%; left:25%;}
+20%{top:20%; left:0}
+25%{top: 95%; left:60%;}
+30%{top: 40%; left:0;}
+35%{top:0%; left: 80%;}
+40%{top:60%; left: 0;}
+45%{top:0%; left:30%;}
+50%{top:70%; left:0}
+55%{top: 20%; left:97%;}
+60%{top: 80%; left:0;}
+65%{top:0%; left: 20%;}
+70%{top:95%; left: 0;}
+75%{top:0%; left:50%;}
+80%{top:30%; left:0}
+85%{top: 80%; left:97%;}
+90%{top: 40%; left:0;}
+95%{top:95%; left: 80%;}
+100%{top: 0; left:0;}
+}
